@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari2</title>
+    <style>
+        label, input{
+            font-size: 20px;
+        }
+        
+        h1{
+            text-align: center;
+        }
+
+        p{
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form>  
+        <h1>FORMULARI D'INSCRIPCIÓ DE JUGADORS - CLUB BASQUET ALCANAR</h1>
+        <h2>DADES DEL JUGADOR</h2>
+        <label for="nom"><strong>Nom:</strong></label> <input type="text" id="nom" name="nom" size="20"><label for="cognoms"><strong>Cognoms:</strong></label> <input type="text" id="cognoms" name="cognoms" size="30"><br>
+        <br>
+        <label for="data"><strong>Data de Naixement:</strong></label> <input type="date" id="data" name="nom" size="20"><label for="llocnaix"><strong>Loc de Naixement:</strong></label> <input type="text" id="llocnaix" name="cognoms" size="10"><br>
+        <br>
+        <br>
+        <label for="dni"><strong>DNI:</strong></label> <input type="text" id="dni" name="nom" maxlength="10"><label for="tis"><strong>   TIS:</strong></label> <input type="text" id="tis" name="tis" maxlength="14"><br>
+        <p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <strong>9 digits, 10 si es extranger</strong> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <strong>14 digits</strong></p><br>
+        <br>
+        <label for="adreça"><strong>Adreça:</strong></label><input type="text" id="adreça" name="adreça" size="59"><br>
+        <br>
+        <label for="postal"><strong>Codi Postal:</strong></label><input type="number" id="postal" name="postal" size="" max="5"><label for="població"><strong>Població:</strong></label><input type="text" id="població" name="població" size="26"><br>
+        <br>
+        <label for="provincia"><strong>Provincia:</strong></label><input type="text" id="provincia" name="provincia" size="57"><br>
+        <br>
+        <label for="email"><strong>Correu electronic:</strong></label><input type="email" id="email" name="email" size="51"><br>
+        <br>
+        <label for="tel"><strong>Telèfon:</strong></label><input type="tel" id="tel" name="tel" size="59"><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h2>Dades del pare/ mare o tutor &#40 en el cas de que el jugador sigui menor de edat &#41</h2>
+        <label for="nom1"><strong>Nom:</strong></label> <input type="text" id="nom1" name="nom1" size="20"><label for="cognoms1"><strong>Cognoms:</strong></label> <input type="text" id="cognoms1" name="cognoms1" size="30"><br>
+        <br>
+        <label for="dni1"><strong>DNI:</strong></label> <input type="text" id="dni1" name="dni" maxlength="10"><label for="activitis"><strong>Soci Ampa:</strong></label>
+                                                                                                                <input type="radio" id="yes" name="gender" value="" >
+                                                                                                                <label for="yes">Yes</label>
+                                                                                                                <input type="radio" id="no" name="gender" value="">
+                                                                                                                <label for="no">no</label><br>
+        <p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <strong>9 digits, 10 si es extranger</strong></p><br>
+        <br>
+        <label for="email1"><strong>Correu electronic:</strong></label><input type="email" id="email1" name="email1" size="51"><br>
+        <br>
+        <label for="tel1"><strong>Telèfon:</strong></label><input type="tel" id="tel1" name="tel" size="59"><br>
+        <br>
+        <label style="float: right;" for="signatura"><strong>Signatura: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</strong></label><br>
+        <br>
+        <br>
+        <label style="float: right;" for="mes"><strong>Alcanar,</strong><input type="number" id="mes" name="mes" maxlength="2" pattern="[0-9]{2}"><strong>de</strong><input type="text" id="mes" name="mes" size="6"><strong>de 20</strong><input type="number" id="any" name="any" maxlength="2" pattern="[0-9]{2}"></label><br>
+        <br>
+        <br>
+        <p>El signat passa ser soci del Club Bàsquet Alcanar. La signatura de la inscripció autoritza la cessió d'imatge del jugador en qualsevol mitjà de comunicació <br> així com també el dípòsit de les dades de jugador i tutor a la base de dades del Club Bàsquet Alcanar, d'on podran ser elíminades si es sol·licita per escrit.</p><br>
+        <br>
+        ___________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+        <br>
+        <br>
+        <h2>Dades per la domiciliació bancaria</h2><br>
+        <label for="nom2"><strong>Nom del titular:</strong></label> <input type="text" id="nom2" name="nom2" size="50"><br>
+        <br>
+        <label for="cognom2"><strong>Cognom del titular:</strong></label> <input type="text" id="cognom2" name="cognom" size="50"><br>
+        <br>
+        <label for="dni2"><strong>DNI:</strong></label> <input type="text" id="dni2" name="dni2" maxlength="10"><label for="activitis1"><strong>Soci Ampa:</strong></label>
+                                                                                                                <input type="radio" id="yes1" name="gender" value="" >
+                                                                                                                <label for="yes1">Yes</label>
+                                                                                                                <input type="radio" id="no1" name="gender" value="">
+                                                                                                                <label for="no1">no</label><br>
+        <p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <strong>9 digits, 10 si es extranger</strong></p><br>
+        <label for="entitat"><strong>Entitat:</strong></label><input type="text" id="entitat" name="entitat" size="59"><br>
+        <br>
+        <label for="adreça1"><strong>Adreça:</strong></label><input type="text" id="adreça1" name="adreça1" size="59"><br>
+        <br>
+        <label for="postal1"><strong>Codi Postal:</strong></label><input type="number" id="postal1" name="postal1" size="" max="5"><label for="població1"><strong>Població:</strong></label><input type="text" id="població1" name="població" size="26"><br>
+        <br>
+        <label for="provincia1"><strong>Provincia:</strong></label><input type="text" id="provincia1" name="provincia1" size="57"><br>
+        <br>
+        <label for="entitat">Entitat:</label><input type="number" id="entitat" name="entitat" maxlength="4"><label for="oficina">Oficina:</label><input type="number" id="oficina" name="oficina" maxlength="4"><label for="dc">D.C:</label><input type="number" id="dc" name="dc" maxlength="2"><label for="dc">D.C:</label><input type="number" id="dc" name="dc" maxlength="10"><br>
+        <br>
+        <p style="float: right;">20 digits en total &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</p><br>
+        <br>
+        <label style="float: right;" for="signatura1"><strong>Signatura: </strong></label><br>
+        <br>
+        <br>
+        <label style="float: right;" for="mes"><strong>Alcanar,</strong><input type="number" id="mes" name="mes" maxlength="2" pattern="[0-9]{2}"><strong>de</strong><input type="text" id="mes" name="mes" size="6"><strong>de 20</strong><input type="number" id="any" name="any" maxlength="2" pattern="[0-9]{2}"></label><br>
+        <br>
+    </form>
+</body>
+</html>
